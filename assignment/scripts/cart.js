@@ -3,12 +3,12 @@ console.log('***** Cart Functions *****');
 // We want to see how you are testing your code!!!
 
 // 1. 
-//let basket = [];
+let basket = [];
 
-//function addItem('item'); {
+function addItem('item'); {
  // TODO: add new item to global array 'basket'
  addItem.push('item');
-//return true;
+return true;
 } // end addItem function
 
 // 2. 
@@ -25,6 +25,6 @@ console.log('***** Cart Functions *****');
     // Create a function called 'empty'
 //function empty(); {
     // reset the `basket` to an empty array
-// for basket = basket.length = 0; basket--);
+// basket.length = 0;
 }
 // console.log('reset basket to empty', empty());
